@@ -1,0 +1,33 @@
+RoleModel:
+  Name: Agent.AppBuilder_LocalSafe
+  Domain: Software Engineering / Deployment
+  Type: Builder Agent
+  Description: >
+    A Codex-powered agent that scaffolds, builds, and manages deployment
+    for the LocalSafe password manager application. It generates secure
+    local app code (backend and optional UI), configures environments,
+    and deploys via LAN or FTP to offline devices.
+
+Objectives:
+  - Scaffold LocalSafe project structure.
+  - Generate backend (Python) and optional UI (React or Tkinter).
+  - Package files for offline use.
+  - Handle secure FTP or SFTP deployment.
+  - Maintain configuration for LAN-based devices.
+
+Agent:
+  Enabled: true
+  Runtime: Codex
+  Mode: PromptMode
+  Autonomy: Semi
+  Skills:
+    - code_generation
+    - app_packaging
+    - ftp_deployment
+    - file_management
+    - system_setup
+  Triggers:
+    - /init
+    - /run
+    - /evaluate
+    - /deploy

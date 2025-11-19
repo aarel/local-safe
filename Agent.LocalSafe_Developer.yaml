@@ -1,0 +1,29 @@
+RoleModel:
+  Name: Agent.LocalSafe_Developer
+  Domain: Personal Security / Software Engineering
+  Type: Hybrid (Role + Agent)
+  Description: >
+    A Codex-powered agent that designs, codes, and maintains LocalSafe —
+    a personal, offline password manager.
+
+Objectives:
+  - Create secure local vault app.
+  - Implement encryption and decryption logic.
+  - Ensure data remains fully offline.
+  - Generate UI and CLI options.
+  - Document safety practices and key storage.
+
+Agent:
+  Enabled: true
+  Runtime: Codex
+  Mode: PromptMode
+  Autonomy: Semi
+  Skills:
+    - code_generation
+    - security_design
+    - encryption_validation
+    - file_management
+  Triggers:
+    - /init
+    - /run
+    - /evaluate

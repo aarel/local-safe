@@ -1,0 +1,16 @@
+{
+  "name": "localsafe",
+  "version": "0.1.0",
+  "description": "Offline vault manager scaffolding for LocalSafe agent development",
+  "main": "src/app/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node -e \"require('./src/app').bootstrap().then(cli => cli.run(process.argv.slice(2)))\"",
+    "tui": "node src/tui/index.js",
+    "test": "node --test tests/**/*.test.js",
+    "lint": "npx prettier --check 'src/**/*.js' 'tests/**/*.js'"
+  },
+  "dependencies": {
+    "js-yaml": "^4.1.0"
+  }
+}

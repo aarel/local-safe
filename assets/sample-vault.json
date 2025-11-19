@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "createdAt": "2024-01-01T00:00:00.000Z",
+  "updatedAt": "2025-11-07T02:56:01.021Z",
+  "entries": [
+    {
+      "id": "2b63ce3f-1f32-461f-980c-c2db837c00c7",
+      "name": "Gmail",
+      "username": "you@gmail.com",
+      "url": "",
+      "tags": [
+        "[object object]"
+      ],
+      "secret": {
+        "algorithm": "aes-256-gcm",
+        "salt": "0Ha8QXZmqwxevvf7GPjLtA==",
+        "iv": "OklBzN8P7Yn/oOh+",
+        "authTag": "AVMeU2WedfYHOpCL3tB5kQ==",
+        "ciphertext": "xGeMMB4Xfyi5eIupIZf64myGpvhQv2qO7rqCv3ZM0G48pbumdXE2SA=="
+      },
+      "createdAt": "2025-11-07T02:56:01.021Z",
+      "updatedAt": "2025-11-07T02:56:01.021Z",
+      "meta": {
+        "uses": 0,
+        "integrity": "408378e667f1d84c5f4ef2f0a809f087120a02638d8ce0024bfb4d40a39c2de6"
+      }
+    }
+  ],
+  "trash": []
+}
